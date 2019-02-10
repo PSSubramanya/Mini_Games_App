@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Multi_mini_game</string>
+    <string name="game">Select</string>
+    <string name="start"></string>
+    <string name="bingo">Bingo</string>
+    <string name="reset">Rematch</string>
+    <string name="tictactoe">tic tac toe</string>
+    <string name="swap">Block Swap</string>
+    <string name="three">3x3</string>
+    <string name="four">4x4</string>
+    <string name="save">save</string>
+    <string name="view">view</string>
+</resources>

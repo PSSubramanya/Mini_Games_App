@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main5Activity">
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/sw1"
+                android:layout_width="116dp"
+                android:layout_height="116dp"
+                android:layout_weight="0"
+                android:textSize="50dp"
+                android:text="@string/start" />
+
+            <Button
+                android:id="@+id/sw2"
+                android:layout_width="116dp"
+                android:layout_height="116dp"
+                android:layout_weight="0"
+                android:textSize="50dp"
+                android:text="@string/start" />
+
+            <Button
+                android:id="@+id/sw3"
+                android:layout_width="116dp"
+                android:layout_height="116dp"
+                android:layout_weight="0"
+                android:textSize="50dp"
+                android:text="@string/start" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/sw4"
+                android:layout_width="116dp"
+                android:layout_height="116dp"
+                android:layout_weight="0"
+                android:textSize="50dp"
+                android:text="@string/start" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="116dp"
+                android:layout_height="116dp"
+                android:layout_weight="0"
+                android:textSize="50dp"
+                android:background="@color/def"
+                android:text="$" />
+
+            <Button
+                android:id="@+id/sw6"
+                android:layout_width="116dp"
+                android:layout_height="116dp"
+                android:layout_weight="0"
+                android:textSize="50dp"
+                android:text="@string/start" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/sw7"
+                android:layout_width="116dp"
+                android:layout_height="116dp"
+                android:layout_weight="0"
+                android:textSize="50dp"
+                android:text="@string/start" />
+
+            <Button
+                android:id="@+id/sw8"
+                android:layout_width="116dp"
+                android:layout_height="116dp"
+                android:layout_weight="0"
+                android:textSize="50dp"
+                android:text="@string/start" />
+
+            <Button
+                android:id="@+id/sw9"
+                android:layout_width="116dp"
+                android:layout_height="116dp"
+                android:layout_weight="0"
+                android:textSize="50dp"
+                android:text="@string/start" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/move"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:textSize="18sp"
+        android:text="" />
+    <TextView
+        android:id="@+id/move1"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:textSize="18sp"
+        android:text="" />
+    <TextView
+        android:id="@+id/move2"
+        android:layout_width="380dp"
+        android:layout_height="20dp"
+        android:textSize="18sp"
+        android:text=""
+        android:hint="Number of clicks"/>
+
+    <Button
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:text="Score" />
+
+
+</LinearLayout>
